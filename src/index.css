@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #e5097f;
+}
+
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.btn-elegante {
+  @apply relative inline-block px-6 py-2 text-lg font-medium tracking-wide rounded-xl; /* <-- rounded-xl en lugar de rounded-full */
+  @apply z-10 overflow-hidden transition-colors duration-300 border-2 text-rose-500 border-rose-500;
+
+  &:hover {
+    @apply text-white;
+  }
+}
+.btn-elegante::before {
+  content: '';
+  @apply absolute inset-0 transition-transform duration-300 ease-out bg-rose-500;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+}
+.btn-elegante:hover::before {
+  transform: scaleX(1);
+}
+
+.curvy-crab-71 {
+  --color: #e5097f; 
+  --border-radius: 25px;
+  --size: 0.5rem;
+  --duration: 0.7s;
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
+  --font-weight: 700;
+  
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: transparent;
+  color: var(--color);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: var(--font-weight);
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color var(--duration) var(--ease),
+              color var(--duration) var(--ease);
+}
+
+.curvy-crab-71::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--color);
+  border-radius: var(--border-radius);
+  z-index: -1;
+  transition: inset var(--duration) var(--ease);
+}
+
+.curvy-crab-71:hover {
+  background-color: var(--color);
+  color: #fff;
+}
+
+.curvy-crab-71:hover::before {
+  inset: calc(var(--size) * -1);
+}
+
+.curvy-crab-71::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--color);
+  border-radius: var(--border-radius);
+  z-index: -2;
+  transition: transform var(--duration) var(--ease);
+}
+
+.curvy-crab-71:hover::after {
+  transform: scale(calc(var(--size) * 0.2 + 1));
+}
+
+.sliding-underline {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.sliding-underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #e5097f; 
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.sliding-underline:hover::after {
+  width: 100%;
+}
