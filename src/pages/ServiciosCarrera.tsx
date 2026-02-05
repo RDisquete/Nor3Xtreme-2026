@@ -283,7 +283,7 @@ const ServiciosCarrera = () => {
                         <div className="flex flex-col items-center justify-center gap-4 mt-8 md:flex-row">
 
                             <motion.a
-                                href="/tracks/nor3xtrem_larga.gpx"
+                                href="/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"
                                 className={`${buttonBaseClasses}`}
                                 style={buttonMainStyle}
                                 whileHover={{ scale: 1.1, y: -5 }}
@@ -294,7 +294,7 @@ const ServiciosCarrera = () => {
                             </motion.a>
 
                             <motion.a
-                                href="/tracks/nor3xtrem_corta.gpx"
+                                href="/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"
                                 className={`${buttonBaseClasses}`}
                                 style={buttonMainStyle}
                                 whileHover={{ scale: 1.1, y: -5 }}
