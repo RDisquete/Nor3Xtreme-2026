@@ -11,14 +11,14 @@ const roseColorStyle = { color: ROSE_COLOR_HEX };
 const lightRoseColorStyle = { color: LIGHT_ROSE_COLOR_HEX };
 
 const galleryImages = [
-    { src: '/mosaicodemo20.jpg', alt: 'Corredor en el bosque' },
-    { src: '/mosaicodemo12.jpeg', alt: 'Corredores en el grupo' },
-    { src: '/mosaicodemo16.jpg', alt: 'Ciclista en la meta' },
-    { src: '/mosaicodemo27.jpg', alt: 'Paisaje de la carrera' },
-    { src: '/mosaicodemo6.jpeg', alt: 'Corredor subiendo un puerto' },
-    { src: '/mosaicodemo17.jpg', alt: 'Grupo de ciclistas' },
-    { src: '/mosaicodemo23.jpg', alt: 'Corredor subiendo un puerto' },
-    { src: '/mosaicodemo25.jpg', alt: 'Grupo de ciclistas' },
+    { src: '/mosaicodemo20.webp', alt: 'Corredor en el bosque' },
+    { src: '/mosaicodemo12.webp', alt: 'Corredores en el grupo' },
+    { src: '/mosaicodemo16.webp', alt: 'Ciclista en la meta' },
+    { src: '/mosaicodemo27.webp', alt: 'Paisaje de la carrera' },
+    { src: '/mosaicodemo6.webp', alt: 'Corredor subiendo un puerto' },
+    { src: '/mosaicodemo17.webp', alt: 'Grupo de ciclistas' },
+    { src: '/mosaicodemo23.webp', alt: 'Corredor subiendo un puerto' },
+    { src: '/mosaicodemo25.webp', alt: 'Grupo de ciclistas' },
 ];
 const roseBorderStyle70 = { borderColor: `rgba(229, 9, 127, 0.7)` };
 const roseBorderStyle30 = { borderColor: `rgba(229, 9, 127, 0.3)` };
@@ -265,7 +265,7 @@ const ServiciosCarrera = () => {
                     style={roseBorderStyle30}
                 >
                     <img
-                        src="/mosaicodemo14.jpeg"
+                        src="/mosaicodemo14.webp"
                         alt="Fondo de ciclista en una ruta de montaña"
                         className="absolute inset-0 object-cover w-full h-full opacity-20"
                     />

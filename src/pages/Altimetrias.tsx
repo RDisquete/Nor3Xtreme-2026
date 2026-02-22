@@ -82,7 +82,7 @@ const Altimetrias = () => {
         {
             id: 'puerto-de-la-garganta',
             name: 'Puerto de la Garganta',
-            image: '/La Graganta.jpg',
+            image: '/La Graganta.webp',
             imageAlt: 'Perfil de altimetría del Puerto de la Garganta',
             description: 'Es el primer puerto para los cajones 1 y 2 saliendo desde Hervas y con inicio del puerto en baños de montemayor.',
             stats: [
@@ -97,7 +97,7 @@ const Altimetrias = () => {
         {
             id: 'puerto-de-honduras',
             name: 'Puerto de Honduras',
-            image: '/Puerto de Honduras.jpg',
+            image: '/Puerto de Honduras.webp',
             imageAlt: 'Perfil de altimetría del Puerto de Honduras',
             description: 'En esta edición subiremos el puerto de Honduras desde Hervas (y será la salida y primer puerto para el cajón 3). Este puerto será el puerto cronometrado para el trofeo de montaña',
             stats: [
@@ -110,7 +110,7 @@ const Altimetrias = () => {
         {
             id: 'puerto-de-cabezabellosa',
             name: 'Puerto de Cabezabellosa',
-            image: '/Puerto Cabezabellosa.jpg',
+            image: '/Puerto Cabezabellosa.webp',
             imageAlt: 'Perfil de altimetría del Puerto de Cabezabellosa',
             description: 'Por último iremos remontando poco a poco desde navaconcejo para llegar a Rebollar y comenzar el ascenso al último puerto largo de la jornada.',
             stats: [

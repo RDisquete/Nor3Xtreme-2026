@@ -38,7 +38,7 @@ const OrganizerAndCountdown = () => {
         whileHover={{ scale: 1.05 }}
       >
         <motion.img
-          src="/logo fucky.png"
+          src="/logo fucky.webp"
           alt="Logo del Club Fucky de Cáceres"
           className="w-32 mb-4 md:mb-0 md:w-40"
           whileHover={{ y: -5 }}

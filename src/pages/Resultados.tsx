@@ -95,7 +95,7 @@ const Resultados = () => {
                     >
                         <div className="relative md:w-1/2">
                             <img 
-                                src="/mosaicodemo25.jpg"
+                                src="/mosaicodemo25.webp"
                                 alt="Fondo de ciclistas en la meta"
                                 className="object-cover w-full h-full"
                             />

@@ -102,7 +102,7 @@ const Marcha = () => (
             </p>
           </div>
           <div className="overflow-hidden rounded-xl">
-            <img src="/mosaicodemo3.jpeg" alt="Organización del evento" className="object-cover w-full h-auto" />
+            <img src="/mosaicodemo3.webp" alt="Organización del evento" className="object-cover w-full h-auto" />
           </div>
         </div>
       </motion.section>
@@ -134,7 +134,7 @@ const Marcha = () => (
             </p>
           </div>
           <div className="overflow-hidden rounded-xl">
-            <img src="/mosaicodemo4.jpeg" alt="Paisaje de los valles" className="object-cover w-full h-auto" />
+            <img src="/mosaicodemo4.webp" alt="Paisaje de los valles" className="object-cover w-full h-auto" />
           </div>
         </div>
       </motion.section>

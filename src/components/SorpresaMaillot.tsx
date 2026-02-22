@@ -43,7 +43,7 @@ const SorpresaMaillot: React.FC = () => {
                     >
                         <div className="absolute inset-0 flex items-center justify-center w-full h-full">
                             <img
-                                src="/malliot.jpg"
+                                src="/malliot.webp"
                                 alt="Maillot X Edición"
                                 className="object-contain w-full h-full" 
                             />

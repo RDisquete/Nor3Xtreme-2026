@@ -327,7 +327,7 @@ const Recorrido26 = () => {
                         Ruta Larga (143 km / 2860 D+)
                     </h3>
                     <img
-                        src="/Nor3xtrem2026.jpg"
+                        src="/Nor3xtrem2026.webp"
                         alt="Perfil de elevación del recorrido largo"
                         className="w-auto h-full"
                     />
@@ -349,7 +349,7 @@ const Recorrido26 = () => {
                 <TimelineSection 
                     title="Detalle de la Ruta Corta" 
                     points={shortRoutePoints} 
-                    profileImage="/Nor3xtrem 2026corta.jpg"
+                    profileImage="/Nor3xtrem 2026corta.webp"
                     profileAlt="Perfil de elevación del recorrido corto"
                     distanceText="Ruta Corta (115 km / 2100 D+)"
                 />

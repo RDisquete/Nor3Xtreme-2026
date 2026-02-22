@@ -6,7 +6,7 @@ const PerfilCabezabellosa = () => {
     
       <div
         className="absolute inset-0 bg-center bg-cover opacity-30"
-        style={{ backgroundImage: 'url(/perfil-cabezabellosa.png)' }} 
+        style={{ backgroundImage: 'url(/perfil-cabezabellosa.webp)' }} 
       />
 
      

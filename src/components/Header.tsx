@@ -202,7 +202,7 @@ const Header = () => {
         >
             <Link to="/">
                 <img 
-                    src="/logo index.png"
+                    src="/logo index.webp"
                     alt="Logo Nor3xtrem" 
                     className="w-auto h-12 md:h-16 lg:h-20"
                 />

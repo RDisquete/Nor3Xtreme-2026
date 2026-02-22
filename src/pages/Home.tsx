@@ -15,7 +15,7 @@ const DARK_ROSE_HEX = '#c3076c';
 const WHITE_GRAY_HEX = '#a0a0a0'; 
 
 
-const IMAGEN_ENCIMA_URL = '/logo inicio.png'; 
+const IMAGEN_ENCIMA_URL = '/logo inicio.webp'; 
 
 const Home: React.FC = () => {
   const titleVariants = {

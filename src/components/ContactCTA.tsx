@@ -9,14 +9,14 @@ const ContactCTA = () => {
   return (
     <div className="relative px-4 py-16 bg-black md:px-16 md:py-24">
       <img
-        src="/logo nortxtreme.png"
+        src="/logo nortxtreme.webp"
         alt="Logo Nor3xtrem"
         className="absolute inset-0 object-cover object-center w-full h-full opacity-5"
       />
       
       <div className="relative z-10 flex flex-col items-center text-center">
         <motion.img
-          src="/logo nortxtreme.png"
+          src="/logo nortxtreme.webp"
           alt="Logo Nor3xtrem"
           className="w-auto mb-6 h-28 md:h-36"
           initial={{ opacity: 0, y: 20 }}

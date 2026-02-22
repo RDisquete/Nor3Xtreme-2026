@@ -12,34 +12,34 @@ const buttonHoverColor = '#c026d3';
 
 const RecorridoMobile = () => {
     const mosaicItems = [
-        { src: '/mosaicodemo1.jpeg', className: 'col-span-2', isColor: false },
-        { src: '/mosaicodemo2.jpeg', className: '', isColor: true },
-        { src: '/mosaicodemo3.jpeg', className: 'col-span-3 row-span-2', isColor: false },
-        { src: '/mosaicodemo4.jpeg', className: 'col-span-2', isColor: false },
-        { src: '/mosaicodemo5.jpeg', className: 'row-span-2', isColor: false },
-        { src: '/mosaicodemo6.jpeg', className: 'col-span-3', isColor: false },
-        { src: '/mosaicodemo7.jpeg', className: 'col-span-2 row-span-2', isColor: true },
-        { src: '/mosaicodemo8.jpeg', className: '', isColor: false },
-        { src: '/mosaicodemo9.jpeg', className: 'col-span-4', isColor: false },
-        { src: '/mosaicodemo10.jpeg', className: 'row-span-2', isColor: false },
-        { src: '/mosaicodemo11.jpeg', className: '', isColor: true },
-        { src: '/mosaicodemo12.jpeg', className: 'col-span-2 row-span-3', isColor: false },
-        { src: '/mosaicodemo13.jpeg', className: 'col-span-3', isColor: false },
-        { src: '/mosaicodemo14.jpeg', className: 'col-span-2', isColor: false },
-        { src: '/mosaicodemo15.jpeg', className: 'row-span-2', isColor: false },
-        { src: '/mosaicodemo16.jpg', className: '', isColor: false },
-        { src: '/mosaicodemo17.jpg', className: 'col-span-2 row-span-2', isColor: false },
-        { src: '/mosaicodemo18.jpg', className: 'col-span-3', isColor: true },
-        { src: '/mosaicodemo19.jpg', className: 'col-span-2', isColor: false },
-        { src: '/mosaicodemo20.jpg', className: 'row-span-2', isColor: false },
-        { src: '/mosaicodemo21.jpg', className: '', isColor: false },
-        { src: '/mosaicodemo22.jpg', className: 'col-span-4 row-span-2', isColor: false },
-        { src: '/mosaicodemo23.jpg', className: 'col-span-2', isColor: true },
-        { src: '/mosaicodemo24.jpg', className: 'row-span-2', isColor: false },
-        { src: '/mosaicodemo25.jpg', className: '', isColor: false },
-        { src: '/mosaicodemo26.jpg', className: 'col-span-3', isColor: false },
-        { src: '/mosaicodemo27.jpg', className: 'row-span-2', isColor: true },
-        { src: '/mosaicodemo28.jpg', className: '', isColor: false },
+        { src: '/mosaicodemo1.webp', className: 'col-span-2', isColor: false },
+        { src: '/mosaicodemo2.webp', className: '', isColor: true },
+        { src: '/mosaicodemo3.webp', className: 'col-span-3 row-span-2', isColor: false },
+        { src: '/mosaicodemo4.webp', className: 'col-span-2', isColor: false },
+        { src: '/mosaicodemo5.webp', className: 'row-span-2', isColor: false },
+        { src: '/mosaicodemo6.webp', className: 'col-span-3', isColor: false },
+        { src: '/mosaicodemo7.webp', className: 'col-span-2 row-span-2', isColor: true },
+        { src: '/mosaicodemo8.webp', className: '', isColor: false },
+        { src: '/mosaicodemo9.webp', className: 'col-span-4', isColor: false },
+        { src: '/mosaicodemo10.webp', className: 'row-span-2', isColor: false },
+        { src: '/mosaicodemo11.webp', className: '', isColor: true },
+        { src: '/mosaicodemo12.webp', className: 'col-span-2 row-span-3', isColor: false },
+        { src: '/mosaicodemo13.webp', className: 'col-span-3', isColor: false },
+        { src: '/mosaicodemo14.webp', className: 'col-span-2', isColor: false },
+        { src: '/mosaicodemo15.webp', className: 'row-span-2', isColor: false },
+        { src: '/mosaicodemo16.webp', className: '', isColor: false },
+        { src: '/mosaicodemo17.webp', className: 'col-span-2 row-span-2', isColor: false },
+        { src: '/mosaicodemo18.webp', className: 'col-span-3', isColor: true },
+        { src: '/mosaicodemo19.webp', className: 'col-span-2', isColor: false },
+        { src: '/mosaicodemo20.webp', className: 'row-span-2', isColor: false },
+        { src: '/mosaicodemo21.webp', className: '', isColor: false },
+        { src: '/mosaicodemo22.webp', className: 'col-span-4 row-span-2', isColor: false },
+        { src: '/mosaicodemo23.webp', className: 'col-span-2', isColor: true },
+        { src: '/mosaicodemo24.webp', className: 'row-span-2', isColor: false },
+        { src: '/mosaicodemo25.webp', className: '', isColor: false },
+        { src: '/mosaicodemo26.webp', className: 'col-span-3', isColor: false },
+        { src: '/mosaicodemo27.webp', className: 'row-span-2', isColor: true },
+        { src: '/mosaicodemo28.webp', className: '', isColor: false },
     ];
     
     return (
@@ -100,7 +100,7 @@ const RecorridoMobile = () => {
                             Ruta Larga (143 km)
                         </p>
                         <img
-                            src="/Nor3xtrem2026.jpg" 
+                            src="/Nor3xtrem2026.webp" 
                             alt="Gráfica del Recorrido Largo"
                             className="w-auto min-w-[500px] h-auto" 
                         />
@@ -116,7 +116,7 @@ const RecorridoMobile = () => {
                             Ruta Corta (115 km)
                         </p>
                         <img
-                            src="/Nor3xtrem 2026corta.jpg" 
+                            src="/Nor3xtrem 2026corta.webp" 
                             alt="Gráfica del Recorrido Corto"
                             className="w-auto min-w-[500px] h-auto" 
                         />
@@ -148,7 +148,7 @@ const RecorridoMobile = () => {
                     className="w-full"
                 >
                     <img 
-                        src="/La Graganta.jpg"
+                        src="/La Graganta.webp"
                         alt="Gráfica del Puerto de La Garganta" 
                         className="w-full h-auto rounded-lg shadow-2xl" 
                     />
@@ -179,7 +179,7 @@ const RecorridoMobile = () => {
                     className="w-full"
                 >
                     <img 
-                        src="/Puerto de Honduras.jpg"
+                        src="/Puerto de Honduras.webp"
                         alt="Gráfica del Puerto de Honduras" 
                         className="w-full h-auto rounded-lg shadow-2xl" 
                     />
@@ -210,7 +210,7 @@ const RecorridoMobile = () => {
                     className="w-full"
                 >
                     <img 
-                        src="/Puerto Cabezabellosa.jpg"
+                        src="/Puerto Cabezabellosa.webp"
                         alt="Gráfica del Puerto de Cabezabellosa" 
                         className="w-full h-auto rounded-lg shadow-2xl" 
                     />

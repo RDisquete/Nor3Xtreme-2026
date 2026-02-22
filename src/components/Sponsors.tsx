@@ -2,70 +2,76 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const sponsors = [
-  { src: '/patrocinadores/patrocinador1.png', link: '' },
-  { src: '/patrocinadores/patrocinador2.jpeg', link: 'https://mitto.es/' },
-  { src: '/patrocinadores/patrocinador3.png', link: 'https://x-sauce.com/' },
-  { src: '/patrocinadores/patrocinador4.png', link: 'https://santanoautomocion.com/' },
-  { src: '/patrocinadores/patrocinador5.png', link: 'https://www.dip-caceres.es/' },
-  { src: '/patrocinadores/patrocinador6.png', link: 'https://www.juntaex.es/' },
-  { src: '/patrocinadores/patrocinador7.png', link: 'https://fundacion.cooprado.es/' },
-  { src: '/patrocinadores/patrocinador8.png', link: 'https://ciclismoextremadura.es/index.php/es/smartweb/seccion/seccion/extremadura/Inicio' },
-  { src: '/patrocinadores/patrocinador9.png', link: 'https://www.facebook.com/karmaopticas/videos/' },
-  { src: '/patrocinadores/patrocinador10.jpeg', link: '' },
-  { src: '/patrocinadores/patrocinador11.jpeg', link: 'https://tucrono.es/' },
-  { src: '/patrocinadores/patrocinador12.png', link: 'https://rcymedia.eu/' },
-  { src: '/patrocinadores/patrocinador13.png', link: 'https://www.hotelsinagoga.com/' },
-  { src: '/patrocinadores/patrocinador14.png', link: 'https://complejoroma.com/' },
-  { src: '/patrocinadores/patrocinador15.png', link: 'https://www.lascanadas.es/' },
-  { src: '/patrocinadores/patrocinador30.png', link: 'https://aldeavetonia.es/' },
-  { src: '/patrocinadores/patrocinador16.png', link: 'https://campingelpinajarro.com/' },
-  { src: '/patrocinadores/patrocinador17.png', link: 'https://www.laplateadehervas.com/' },
-  { src: '/patrocinadores/patrocinador18.png', link: 'https://elsolitario.es/' },
-  { src: '/patrocinadores/patrocinador19.png', link: 'https://colmerbicicletas.com/' },
-  { src: '/patrocinadores/patrocinador20.png', link: 'https://www.albergueviadelaplata.com/' },
-  { src: '/patrocinadores/patrocinador21.png', link: '' },
-  { src: '/patrocinadores/patrocinador22.png', link: 'https://www.facebook.com/p/Bicicletas-PELIN-100083164635627/?locale=es_ES' },
-  { src: '/patrocinadores/patrocinador23.png', link: 'https://www.facebook.com/people/Bikeshop/100049533921886/' },
-  { src: '/patrocinadores/patrocinador24.png', link: 'https://bikesraul.com/bicicletas/' },
-  { src: '/patrocinadores/patrocinador25.png', link: 'https://bicicletaskilometrocero.com/' },
-  { src: '/patrocinadores/patrocinador26.png', link: 'https://www.fotoscarreras.com/' },
-  { src: '/patrocinadores/patrocinador27.png', link: 'https://adastrahervas.com/' },
-  { src: '/patrocinadores/patrocinador28.png', link: 'https://rdisquete.es/' },
-  { src: '/patrocinadores/patrocinador29.png', link: 'https://gr-100.com/' },
+  { src: '/patrocinadores/patrocinador21.webp', link: 'https://www.hervas.es/' },
+  { src: '/patrocinadores/patrocinador2.webp', link: 'https://mitto.es/' },
+  { src: '/patrocinadores/patrocinador3.webp', link: 'https://x-sauce.com/' },
+  { src: '/patrocinadores/patrocinador4.webp', link: 'https://santanoautomocion.com/' },
+  { src: '/patrocinadores/patrocinador5.webp', link: 'https://www.dip-caceres.es/' },
+  { src: '/patrocinadores/patrocinador6.webp', link: 'https://www.juntaex.es/' },
+  { src: '/patrocinadores/patrocinador7.webp', link: 'https://fundacion.cooprado.es/' },
+  { src: '/patrocinadores/patrocinador8.webp', link: 'https://ciclismoextremadura.es/index.php/es/smartweb/seccion/seccion/extremadura/Inicio' },
+  { src: '/patrocinadores/patrocinador9.webp', link: 'https://www.facebook.com/karmaopticas/videos/' },
+  { src: '/patrocinadores/patrocinador10.webp', link: 'https://www.facebook.com/profile.php?id=61557950476229' },
+  { src: '/patrocinadores/patrocinador11.webp', link: 'https://tucrono.es/' },
+  { src: '/patrocinadores/patrocinador12.webp', link: 'https://rcymedia.eu/' },
+  { src: '/patrocinadores/patrocinador13.webp', link: 'https://www.hotelsinagoga.com/' },
+  { src: '/patrocinadores/patrocinador14.webp', link: 'https://complejoroma.com/' },
+  { src: '/patrocinadores/patrocinador15.webp', link: 'https://www.lascanadas.es/' },
+  { src: '/patrocinadores/patrocinador30.webp', link: 'https://aldeavetonia.es/' },
+  { src: '/patrocinadores/patrocinador16.webp', link: 'https://campingelpinajarro.com/' },
+  { src: '/patrocinadores/patrocinador17.webp', link: 'https://www.laplateadehervas.com/' },
+  { src: '/patrocinadores/patrocinador18.webp', link: 'https://elsolitario.es/' },
+  { src: '/patrocinadores/patrocinador19.webp', link: 'https://colmerbicicletas.com/' },
+  { src: '/patrocinadores/patrocinador20.webp', link: 'https://www.albergueviadelaplata.com/' },
+  { src: '/patrocinadores/patrocinador1.webp', link: 'https://www.navaconcejo.es/' },
+  { src: '/patrocinadores/patrocinador22.webp', link: 'https://www.facebook.com/p/Bicicletas-PELIN-100083164635627/?locale=es_ES' },
+  { src: '/patrocinadores/patrocinador23.webp', link: 'https://www.facebook.com/people/Bikeshop/100049533921886/' },
+  { src: '/patrocinadores/patrocinador24.webp', link: 'https://bikesraul.com/bicicletas/' },
+  { src: '/patrocinadores/patrocinador25.webp', link: 'https://bicicletaskilometrocero.com/' },
+  { src: '/patrocinadores/patrocinador26.webp', link: 'https://www.fotoscarreras.com/' },
+  { src: '/patrocinadores/patrocinador27.webp', link: 'https://adastrahervas.com/' },
+  { src: '/patrocinadores/patrocinador28.webp', link: 'https://rdisquete.es/' },
+  { src: '/patrocinadores/patrocinador29.webp', link: 'https://gr-100.com/' },
 ];
 
 const Sponsors = () => {
-    const roseColorStyle = { color: '#e5097f' };
+  const roseColorStyle = { color: '#e5097f' };
 
   return (
-    <section className="py-12 bg-black/50"> 
+    <section className="py-20 bg-black/50"> 
       <h2 
-        className="mb-8 text-5xl font-extrabold text-center md:mb-12"
+        className="mb-16 text-5xl font-extrabold text-center uppercase md:text-6xl font-montserrat"
         style={roseColorStyle}
       >
         Patrocinadores
       </h2>
-      <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6">
+      
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        {/* Mantengo tu grid de 6 columnas, pero ten cuidado: 
+            con h-36 en desktop, 6 logos por fila puede quedar muy apretado. 
+            Si ves que se pegan demasiado, baja a lg:grid-cols-4. */}
+        <div className="grid grid-cols-2 gap-12 md:grid-cols-3 lg:grid-cols-6 xl:gap-16">
           {sponsors.map((item, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.4 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="flex items-center justify-center" 
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.5, delay: (index % 4) * 0.1 }}
+              className="flex items-center justify-center p-4 bg-white/5 rounded-2xl" 
             >
               <a 
                 href={item.link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block transition duration-300 hover:scale-110"
+                className="relative block transition-all duration-300 group hover:scale-110"
               >
                 <img
                   src={item.src}
                   alt={`Patrocinador ${index + 1}`}
-                  className="object-contain w-auto h-16 md:h-20"
+                  // He añadido loading="lazy" para que la web cargue más rápido
+                  loading="lazy"
+                  className="object-contain w-full h-24 transition-all duration-500 hover:grayscale-0 md:h-32 lg:h-36"
                 />
               </a>
             </motion.div>
