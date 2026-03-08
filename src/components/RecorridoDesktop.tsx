@@ -91,6 +91,7 @@ const RecorridoDesktop = () => {
                     className="flex w-[400vw] h-full" 
                     style={{ x }}
                 >
+                    {/* SECCIÓN 1: EL RECORRIDO GENERAL */}
                     <div className="relative flex items-center justify-center w-screen p-8 text-center md:p-16">
                         <div className="relative z-10 flex flex-col items-center justify-center w-full md:flex-row-reverse max-w-7xl">
                             <motion.div
@@ -131,15 +132,16 @@ const RecorridoDesktop = () => {
                                     El Recorrido
                                 </h2>
                                 <p 
-                                    className="max-w-2xl mx-auto mt-4 text-lg font-light md:text-2xl drop-shadow-lg"
+                                    className="max-w-2xl mx-auto mt-4 text-lg md:text-2xl drop-shadow-lg"
                                     style={baseTextColorStyle}
                                 >
-                                    Dos rutas para elegir: <strong>Ruta Larga (143 km / 2860 D+)</strong>, con tres grandes puertos, y la <strong>Ruta Corta (115 km / 2100 D+)</strong>, ideal para el Cicloturismo.
+                                    Dos rutas para elegir: <strong className="text-white font-bold">Ruta Larga (143 km / 2860 D+)</strong>, con tres grandes puertos, y la <strong className="text-white font-bold">Ruta Corta (115 km / 2100 D+)</strong>, ideal para el Cicloturismo.
                                 </p>
                             </div>
                         </div>
                     </div>
 
+                    {/* SECCIÓN 2: PUERTO DE LA GARGANTA */}
                     <div className="flex items-center justify-center w-screen p-8 md:p-16">
                         <div className="flex flex-col items-center justify-between w-full max-w-5xl gap-8 md:flex-row">
                             <motion.div
@@ -169,17 +171,18 @@ const RecorridoDesktop = () => {
                                     1. El Puerto de La Garganta
                                 </h3>
                                 <p 
-                                    className="mt-2 text-base font-light md:text-lg"
+                                    className="mt-2 text-base md:text-lg"
                                     style={baseTextColorStyle}
                                 >
-                                    <strong>1188 m de altitud · 10.0 km al 5.2%</strong>
+                                    <strong className="text-white font-bold">1188 m de altitud · 10.0 km al 5.2%</strong>
                                     <br />
-                                    Es el primer puerto para los cajones 1 y 2 saliendo desde Hervas y con inicio del puerto en baños de montemayor.
+                                    Es el primer puerto para los <strong className="text-white font-bold">cajones 1 y 2</strong> saliendo desde Hervas y con inicio del puerto en baños de montemayor.
                                 </p>
                             </motion.div>
                         </div>
                     </div>
 
+                    {/* SECCIÓN 3: PUERTO DE HONDURAS */}
                     <div className="flex items-center justify-center w-screen p-8 md:p-16">
                         <div className="flex flex-col items-center justify-between w-full max-w-5xl gap-8 md:flex-row">
                             <motion.div
@@ -209,17 +212,18 @@ const RecorridoDesktop = () => {
                                     2. El Puerto de Honduras
                                 </h3>
                                 <p 
-                                    className="mt-2 text-base font-light md:text-lg"
+                                    className="mt-2 text-base md:text-lg"
                                     style={baseTextColorStyle}
                                 >
-                                    <strong>1425 m de altitud · 14.0 km al 5.3%</strong>
+                                    <strong className="text-white font-bold">1425 m de altitud · 14.0 km al 5.3%</strong>
                                     <br />
-                                    En esta edición subiremos el puerto de Honduras desde Hervas (y será la salida y primer puerto para el cajón 3). Este puerto será el puerto cronometrado para el trofeo de montaña.
+                                    En esta edición subiremos el puerto de Honduras desde Hervas (y será la salida y primer puerto para el <strong className="text-white font-bold">cajón 3</strong>). Este puerto será el <strong className="text-white font-bold uppercase">puerto cronometrado</strong> para el trofeo de montaña.
                                 </p>
                             </motion.div>
                         </div>
                     </div>
                     
+                    {/* SECCIÓN 4: PUERTO DE CABEZABELLOSA */}
                     <div className="flex items-center justify-center w-screen p-8 md:p-16">
                         <div className="flex flex-col items-center justify-between w-full max-w-5xl gap-8 md:flex-row-reverse">
                             <motion.div
@@ -249,12 +253,12 @@ const RecorridoDesktop = () => {
                                     3. El Puerto de Cabezabellosa
                                 </h3>
                                 <p 
-                                    className="mt-2 text-base font-light md:text-lg"
+                                    className="mt-2 text-base md:text-lg"
                                     style={baseTextColorStyle}
                                 >
-                                    <strong>935 m de altitud · 17.7 km al 2.7%</strong>
+                                    <strong className="text-white font-bold">935 m de altitud · 17.7 km al 2.7%</strong>
                                     <br />
-                                    Por último iremos remontando poco a poco desde navaconcejo para llegar a Rebollar y comenzar el ascenso al último puerto largo de la jornada.
+                                    Por último iremos remontando poco a poco desde Navaconcejo para llegar a Rebollar, después nos dirigimos a Él Torno Y acabaremos coronando el <strong className="text-white font-bold">último puerto largo</strong> de la jornada.
                                 </p>
                                 <motion.a
                                     href="/altimetrias"
