@@ -30,8 +30,8 @@ const btnDownloadStyle: React.CSSProperties = {
 };
 
 const DatosCarrera = () => {
-  const ARCHIVO_TRACK_LARGO = "/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"; 
-  const ARCHIVO_TRACK_CORTO = "/51960bd3-2da9-4cb5-8199-69108c0c340b.gpx";
+  const ARCHIVO_TRACK_LARGO = "/Ruta_larga.gpx"; 
+  const ARCHIVO_TRACK_CORTO = "/Ruta_corta.gpx";
 
   const containerVariants = {
     hidden: { opacity: 0 },

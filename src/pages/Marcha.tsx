@@ -59,7 +59,7 @@ const Marcha = () => (
               animate="visible"
               style={{ color: ROSE_COLOR_HEX }}
             >
-              Nor3xtreme
+              Nor3xtrem
             </motion.h1>
           </div>
 
@@ -120,7 +120,7 @@ const Marcha = () => (
                 className="mb-4 text-4xl font-bold md:text-5xl"
                 style={{ color: ROSE_COLOR_HEX }}
             >
-                La Esencia de Nor3xtreme
+                La Esencia de Nor3xtrem
             </h2>
             <p 
                 className="pr-4 text-base leading-relaxed border-r-4 md:text-lg"

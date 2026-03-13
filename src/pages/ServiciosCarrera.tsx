@@ -283,7 +283,7 @@ const ServiciosCarrera = () => {
                         <div className="flex flex-col items-center justify-center gap-4 mt-8 md:flex-row">
 
                             <motion.a
-                                href="/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"
+                                href="/Ruta_larga.gpx"
                                 className={`${buttonBaseClasses}`}
                                 style={buttonMainStyle}
                                 whileHover={{ scale: 1.1, y: -5 }}
@@ -294,7 +294,7 @@ const ServiciosCarrera = () => {
                             </motion.a>
 
                             <motion.a
-                                href="/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"
+                                href="/Ruta_corta.gpx"
                                 className={`${buttonBaseClasses}`}
                                 style={buttonMainStyle}
                                 whileHover={{ scale: 1.1, y: -5 }}

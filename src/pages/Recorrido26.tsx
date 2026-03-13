@@ -143,7 +143,7 @@ const Recorrido26 = () => {
                             className="flex flex-col items-center justify-center gap-6 mt-12 md:flex-row"
                         >
                             <motion.a
-                                href="/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"
+                                href="/Ruta_larga.gpx"
                                 className={buttonBaseClasses}
                                 style={buttonMainStyle}
                                 whileHover={{ scale: 1.05, y: -2 }}
@@ -156,7 +156,7 @@ const Recorrido26 = () => {
                             </motion.a>
 
                             <motion.a
-                                href="/ae0334ed-d813-4427-89af-48beaa1497f7.gpx"
+                                href="/Ruta_corta.gpx"
                                 className={buttonBaseClasses}
                                 style={buttonMainStyle}
                                 whileHover={{ scale: 1.05, y: -2 }}
